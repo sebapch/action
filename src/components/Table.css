@@ -1,0 +1,40 @@
+.Table {
+    padding: 50px;
+    position: absolute;
+  }
+    
+  table {
+    border: 2px solid black;
+    width: 700px;
+    height: 300px;
+  }
+    
+  th {
+    border-bottom: 1px solid black;
+  }
+    
+  td {
+    text-align: center;
+    
+  }
+
+  .table__button{
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    padding: 10px 5px ;
+    width: 10%;
+    background-color: rgb(99,133,255);
+    color: white;
+    border: 1px solid;
+  }
+
+  .button__view{
+    width: auto;
+    background-color: rgb(99,133,255);
+    border-radius: 15%;
+    color: white;
+    border: 1px solid;
+  }

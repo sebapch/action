@@ -1,0 +1,60 @@
+.login {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    
+
+}
+
+.login__logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login__container{
+    height: 1000px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.login__container > h1 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.login__clientButton{
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    padding: 15px 10px ;
+    width: 50%;
+    background-color: rgb(99,133,255);
+    color: white;
+    border: 1px solid;
+}
+
+.login__adminButton { 
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    padding: 15px 10px ;
+    width: 50%;
+    background-color: white;
+    color: rgb(99,133,255);
+    border: 1px solid rgb(99,133,255);
+}

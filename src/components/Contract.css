@@ -1,0 +1,39 @@
+.contract{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    max-height: 400px;
+    min-width: 100px;
+    background-color: white;
+    border: 1px solid;
+    z-index: 1;
+}
+
+.contract > img {
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.contract > button {
+    background: white;
+    border: 1px solid;
+    margin-top: 10px; 
+    color: rgb(99,133,255);
+}
+
+.contract__info{
+    height: 50px;
+    margin-bottom: 15px;
+    
+}
+
+.contract__title{
+    margin-top: 5px;
+}
+
